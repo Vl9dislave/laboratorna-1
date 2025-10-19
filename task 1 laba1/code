@@ -1,0 +1,15 @@
+function inc(n) {
+  return n + 1;
+}
+
+let a = 5;
+let b = inc(a);
+console.log("a =", a, "b =", b);
+
+function incObj(num) {
+  num.n = num.n + 1;
+}
+
+let obj = { n: 5 };
+incObj(obj);
+console.log(obj);
